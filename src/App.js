@@ -60,7 +60,7 @@ function Board(props) {
     if (winner) {
       setStatus("Winner: " + winner);
     } else {
-      setStatus("Next player: " + (isx === true ? " X" : " O"));
+      setStatus("Next player: " + (isx === true ? " O" : " X"));
     }
     setBoardArray(squares);
   };
